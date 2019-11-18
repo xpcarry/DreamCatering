@@ -54,17 +54,7 @@ body
 	text-align: justify;
 }
 
-/* .sidebar
-{
-	float: left;
-	width: 148px;
-	min-height: 620px;
-	padding:20px;
-	background-color: lightgray;
-	text-align: center;
-	font-size: 18px;
-	border-right: 2px dotted .666666;
-} */
+
 
 .content
 {
@@ -103,24 +93,14 @@ body
 	cursor: pointer;
 }
 
-/* .optionL
-{
-	font-size:18px;
-	height:25px;
-	padding: 10px;
-	border-bottom: 2px dotted .444444;
+.option a{
+	all: unset;
 }
 
-.optionL:hover
-{
-	background-color: .f36742;
-	color: white;
-	cursor: pointer;
-} */
 
 .bigtitle
 {
-    font-size: 42px;
+    font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
 	font-weight: 900;
     letter-spacing: 2px;
@@ -135,11 +115,54 @@ body
 	border-bottom: 2px dotted .444444;
 }
 
-.Kontakt{
-    float: left;
-    margin-top: 15px;
-    padding: 40px;
-    background-color: white;
+#Kontakt{
+	float: left;
+	width: 100%;
+	margin-top: 15px;
+	background-color: white;
+    text-align: justify;
     border-radius: 20px;
+
 }
+
+.KontaktL{
+	margin-top: 15px;
+    padding: 40px;
+	background-color: white;
+	border-radius: 20px;
+	float:left;
+}
+
+.KontaktR{
+	margin-top: 15px;
+    padding: 20px;
+	background-color: white;
+	border-radius: 20px;
+	float:left;
+}
+
+.sidebar
+{
+	float: left;
+    padding: 20px;
+	text-align: left;
+	font-size: 18px;
+} 
+
+.optionR
+{
+	font-size:16px;
+	height:30px;
+	line-height: 30px;
+	padding: 10px;
+	text-align: center;
+
+}
+
+.optionR:hover
+{
+	background-color: orange;
+	color: white;
+	cursor: pointer;
+} 
 
