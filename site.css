@@ -103,7 +103,9 @@ body
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
 	font-weight: 900;
-    letter-spacing: 2px;
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+	width:100%;
     
 }
 
@@ -166,3 +168,20 @@ body
 	cursor: pointer;
 } 
 
+.oferta-card{
+	float:left;
+	padding: 30px;
+	min-width: 230px;
+	max-width: 240px;
+	min-height: 450px;
+
+}
+
+.oferta-card-2
+{
+	text-align:center;
+}
+
+content > .oferta-card{
+	border-radius: 20px;
+}
