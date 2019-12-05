@@ -13,28 +13,10 @@
 	
 	<div class="container">
 		
-		<div class="topbar">
-			<div class="topbarL">
-				<img src="content/pictures/logo.png" />
-			</div>
-			<div class="topbarR">
-				<span class="bigtitle">Dream Catering</span>
-				<div style="height: 15px;"></div>
-                Zamów swoje wymarzone jedzenie!
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia mollis odio eu bibendum.
-			</div>
-			<div style="clear:both;"></div>
-        </div>
-        
-        <div id="menu">
-                <div class="option"><a href="index.html">Strona główna</a></div>
-                <div class="option"><a href="DGlowne.html">Dania Główne</a></div>
-                <div class="option"><a href="Przystawki.html">Przystawki</a></div>
-                <div class="option">Strona4</div>
-                <div class="option" style="border-right: unset;">Strona5</div>
-                <div style="clear:both;"></div>
-            </div>
-		
+		<?php
+			require_once("./partial/header.php");
+
+		?>
 		
 		
 		<div class="content">
@@ -50,34 +32,11 @@
 			<br /><br />			
 			Nam ullamcorper turpis non tristique sollicitudin. Etiam id magna lacus. Pellentesque vestibulum ex eget quam consectetur, sit amet luctus erat feugiat. Sed gravida tellus tempus consequat rhoncus. Phasellus lobortis magna et risus pharetra, facilisis blandit sapien tristique. Vivamus aliquam interdum arcu, eget facilisis ante gravida ut. Proin nec nisl ut lacus finibus sagittis id non nibh. Donec volutpat pretium libero. Sed fermentum vel ante vitae mattis. Curabitur porttitor turpis at scelerisque auctor. Sed vitae iaculis risus, ut iaculis nibh.
 		</div>	
+
+		<?php
+			require_once("./partial/footer.php");
+		?>
 		
-		<div id="Kontakt">
-				<div class="KontaktL">
-					<div style="font-size: 24;"><b>Kontakt</b></div>
-					<p>Dream Catering sp. z. o. o</p>
-					<p>Ul. Posiłkowa 28/12</p>
-					<p>21-370 Warszawa</p>
-					<br/>
-					<p><b>E-mail:</b> <a href="mailto:dreamcatering@cat.eu"> dreamcatering@cat.eu</a><br/></p>
-					<p><b>Telefon:</b> +48 600 200 399</p>
-					<p>W celu wskazówek dojazdu spójrz na mapę</p>
-				</div>
-	
-				<div class="KontaktR">
-					<p style="font-size: 24;"><b>Jak Dojechać?</b></p>
-					<img src="content/pictures/mapa.png"/>
-				</div>
-	
-				<div class="sidebar">
-					<p style="font-size: 24;"><b>Skróty</b></p>
-					<div class="optionR">Dania Główne</div>
-					<div class="optionR">Przystawki</div>
-					<div class="optionR">Strona3</div>
-					<div class="optionR">Strona4</div>
-					<div class="optionR">Strona5</div>
-				</div>
-	
-			</div>
 		
 		</div>
 		
