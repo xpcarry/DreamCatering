@@ -17,11 +17,11 @@
 
     <div class="sidebar">
         <p style="font-size: 24;"><b>Skróty</b></p>
+        <div class="optionR">Strona Główna</div>
         <div class="optionR">Dania Główne</div>
         <div class="optionR">Przystawki</div>
-        <div class="optionR">Strona3</div>
-        <div class="optionR">Strona4</div>
-        <div class="optionR">Strona5</div>
+        <div class="optionR">Zaloguj się</div>
+        <div class="optionR">Zarejestruj</div>
     </div>
 
 </div>

@@ -1,7 +1,7 @@
 body
 {
 	background-color: rgb(77, 65, 65);
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .container
@@ -62,7 +62,7 @@ body
 	padding: 40px;
 	width: 92%;
 	background-color: white;
-	min-height: 580px;
+	min-height: 200px;
     text-align: justify;
     border-radius: 20px;
 }
@@ -185,3 +185,15 @@ body
 content > .oferta-card{
 	border-radius: 20px;
 }
+
+.inputPanel {
+	margin-left: auto;
+	margin-right: auto;
+	width: 10em;
+	border-style: solid;
+	border: 3px;
+	padding: 0px;
+	text-align: left;
+	
+}
+
