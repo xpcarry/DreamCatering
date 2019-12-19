@@ -23,42 +23,42 @@
 
 
         <div class="content">
-                <form method="post" action="./catering_system/register_system.php">
-                    <div class="inputPanel">
-                        <h2>Zarejestruj się</h2>
-                        <label>Nazwa uzytkownika: </label>
-                        <input type="text" name="login" style="width: 100%"> </br>
-                        <label>Hasło: </label>
-                        <input type="password" name="password"style="width: 100%"> </br>
-                        <label>Potwierdz hasło: </label>
-                        <input type="password" name="confirmPassword" style="width: 100%"> </br>
-                        <h3>Dane dostawy:</h3>
-                        <label>Miasto </label>
-                        <input type="text" name="" style="width: 100%"> </br>
-                        <label>Ulica </label>
-                        <input type="text" name="" style="width: 100%"> </br>
-                        <label>Kod pocztowy: </label>
-                        <input type="text" name="" style="width: 100%"> </br> </br>
-                        <button type="submit" style="width: 100%; font-size: 23;">Zarejestruj</button>  
-                    </div> 
-                </form>
-            <div>
-                <?php
-                    if(isset($_SESSION['register_error'])) {
-                        echo $_SESSION['register_error'];
-                        unset($_SESSION['register_error']);
-                    }
-                    
-                ?>
-            </div>
-            <div>
-                <?php
-                    if(isset($_SESSION['register_success'])) {
-                        echo $_SESSION['register_success'];
-                        unset($_SESSION['register_success']);
-                    }
-                ?>
-            </div>
+            <form method="post" action="./catering_system/register_system.php">
+                <div class="inputPanel">
+                    <h2>Zarejestruj się</h2>
+                    <label>Nazwa uzytkownika: </label>
+                    <input type="text" name="login" style="width: 100%"> </br>
+                    <label>Hasło: </label>
+                    <input type="password" name="password" style="width: 100%"> </br>
+                    <label>Potwierdz hasło: </label>
+                    <input type="password" name="confirmPassword" style="width: 100%"> </br>
+                    <h3>Dane dostawy:</h3>
+                    <label>Miasto </label>
+                    <input type="text" name="miasto" style="width: 100%"> </br>
+                    <label>Ulica </label>
+                    <input type="text" name="ulica" style="width: 100%"> </br>
+                    <label>Kod pocztowy: </label>
+                    <input type="text" name="kod" style="width: 100%"> </br> </br>
+                    <button type="submit" style="width: 100%; font-size: 23;">Zarejestruj</button>
+                    <div>
+                        <?php
+                        if (isset($_SESSION['register_error'])) {
+                            echo $_SESSION['register_error'];
+                            unset($_SESSION['register_error']);
+                        }
+
+                        ?>
+                    </div>
+                    <div>
+                        <?php
+                        if (isset($_SESSION['register_success'])) {
+                            echo $_SESSION['register_success'];
+                            unset($_SESSION['register_success']);
+                        }
+                        ?>
+                    </div>
+                </div>
+            </form>
 
         </div>
 

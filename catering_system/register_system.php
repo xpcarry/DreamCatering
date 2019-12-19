@@ -30,10 +30,13 @@ if ($_POST['password'] !== $_POST['confirmPassword']){
 }
 $username = $_POST['login'];
 $password = sha1($_POST['password']);
+$city = $_POST['miasto'];
+$street = $_POST['ulica'];
+$postalCode = $_POST['kod'];
 
 
-$sql = 'INSERT INTO klienci (username, password)
-VALUES ("' . $username . '", "' . $password . '")';
+$sql = 'INSERT INTO klienci (username, password, miasto, ulica, kod_pocztowy)
+VALUES ("' . $username . '", "' . $password . '", "' . $city . '", "' . $street . '","' . $postalCode . '")';
 
 $result = $connection -> query($sql);
 if ($result){

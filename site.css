@@ -197,3 +197,14 @@ content > .oferta-card{
 	
 }
 
+.koszykPozycja{
+	position: relative;
+	margin-top: 30px;
+  }
+  
+  .koszykPozycjaInfo{
+	display: inline;
+	position: absolute;
+	top: 25px;
+	transform: translateY(-50%);
+  }

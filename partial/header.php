@@ -33,5 +33,6 @@
     <?php if (!isset($_SESSION['user_id'])): ?>
         <div class="option"><a href="./Register.php">Zarejestruj sie</a></div>
     <?php endif; ?>
+    <div class="option"><a href="./koszyk.php">Koszyk</a></div>
     <div style="clear:both;"></div>
 </div>

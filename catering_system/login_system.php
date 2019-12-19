@@ -4,7 +4,7 @@ if (!isset($_SESSION)) session_start();
 require_once "./dbData.php";
 
 if (!isset($_POST['login']) || !isset($_POST['password'])) {
-    header("location: ./index.php");
+    header("location: ../index.php");
     die;
 }
 
@@ -24,7 +24,7 @@ if ($result && $result->num_rows === 1) {
     die;
 } else {
     $_SESSION['login_error'] = "Złe dane logowania";
-    header("location: ./login.php");
+    header("location: ../login.php");
     $connection->close();
     die;
 }
