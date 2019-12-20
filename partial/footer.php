@@ -17,11 +17,9 @@
 
     <div class="sidebar">
         <p style="font-size: 24;"><b>Skróty</b></p>
-        <div class="optionR">Strona Główna</div>
-        <div class="optionR">Dania Główne</div>
-        <div class="optionR">Przystawki</div>
-        <div class="optionR">Zaloguj się</div>
-        <div class="optionR">Zarejestruj</div>
+        <div class="optionR"><a style="text-decoration:unset; color:unset;" href="./index.php">Strona główna</a></div>
+        <div class="optionR"><a style="text-decoration:unset; color:unset;" href="./DGlowne.php">Dania Główne</a></div>
+        <div class="optionR"><a style="text-decoration:unset; color:unset;" href="./Przystawki.php">Przystawki</a></div>
     </div>
 
 </div>

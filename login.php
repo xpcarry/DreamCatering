@@ -25,23 +25,23 @@
         <div class="content">
 
             <form method="post" action="./catering_system/login_system.php">
-            <div class="inputPanel">
-                <h2>Zaloguj się</h2>
-                <label>Nazwa uzytkownika:</label><br/>
-                <input type="text" name="login" style="width: 100%"> </br> 
-                <label>Hasło: </label><br/>
-                <input type="password" name="password" style="width: 100%"></br> </br>
-                <button type="submit" style="width: 100%; font-size: 23;">Zaloguj</button>
-                <p style="font-size: 11px; color: gray;">Nie masz konta? <a href="./register.php" >Zarejestruj się</a></p>
-            </div>
-            </form>            
+                <div class="inputPanel">
+                    <h2>Zaloguj się</h2>
+                    <label>Nazwa uzytkownika:</label><br />
+                    <input type="text" name="login" style="width: 100%" required> </br>
+                    <label>Hasło: </label><br />
+                    <input type="password" name="password" style="width: 100%" required></br> </br>
+                    <button type="submit">Zaloguj</button>
+                    <p style="font-size: 11px; color: gray;">Nie masz konta? <a href="./register.php">Zarejestruj się</a></p>
+                </div>
+            </form>
 
-            <div>
+            <div style="text-align: center; color:red;">
                 <?php
-                    if(isset($_SESSION['login_error'])) {
-                        echo $_SESSION['login_error'];
-                        unset($_SESSION['login_error']);
-                    }
+                if (isset($_SESSION['login_error'])) {
+                    echo $_SESSION['login_error'];
+                    unset($_SESSION['login_error']);
+                }
                 ?>
             </div>
 

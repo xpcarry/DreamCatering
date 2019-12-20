@@ -37,11 +37,11 @@ $result = $conn->query($sql);
               <h2><?= $row["nazwa"] ?></h2>
             </div>
             <div style="text-align: center;">
-              <img src="<?= $row["image_path"] ?>" height="220" width="220" />
+              <img class="danieImg" src="<?= $row["image_path"] ?>" height="220" width="220" />
             </div>
             <div class="oferta-card-2">
-              Cena: <span style="color: red;"><b><?=$row["cena"] ?>,00 PLN</b></span> 
-              <p><a href=<?= "./catering_system/dodajKoszyk.php?id_prod=" . $row['id']?> > Dodaj do koszyka </a></p>
+              Cena: <span style="color: red;"><b><?= $row["cena"] ?>,00 PLN</b></span>
+              <p><a href=<?= "./catering_system/dodajKoszyk.php?id_prod=" . $row['id']?> ><button>Dodaj do koszyka</button></a></p>
             </div>
           </div>
         <?php endwhile; ?>

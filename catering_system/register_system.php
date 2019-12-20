@@ -4,7 +4,7 @@ if (!isset($_SESSION)) session_start();
 require_once "./dbData.php";
 
 if (!isset($_POST['login']) || !isset($_POST['password']) || !isset($_POST['confirmPassword'])) {
-    header("location: ./index.php");
+    header("location: ../index.php");
     die;
 }
 

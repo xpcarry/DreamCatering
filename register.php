@@ -27,18 +27,18 @@
                 <div class="inputPanel">
                     <h2>Zarejestruj się</h2>
                     <label>Nazwa uzytkownika: </label>
-                    <input type="text" name="login" style="width: 100%"> </br>
+                    <input type="text" name="login" style="width: 100%" required> </br>
                     <label>Hasło: </label>
-                    <input type="password" name="password" style="width: 100%"> </br>
+                    <input type="password" name="password" style="width: 100%" required> </br>
                     <label>Potwierdz hasło: </label>
-                    <input type="password" name="confirmPassword" style="width: 100%"> </br>
+                    <input type="password" name="confirmPassword" style="width: 100%" required> </br>
                     <h3>Dane dostawy:</h3>
                     <label>Miasto </label>
-                    <input type="text" name="miasto" style="width: 100%"> </br>
+                    <input type="text" name="miasto" style="width: 100%" required> </br>
                     <label>Ulica </label>
-                    <input type="text" name="ulica" style="width: 100%"> </br>
+                    <input type="text" name="ulica" style="width: 100%" required> </br>
                     <label>Kod pocztowy: </label>
-                    <input type="text" name="kod" style="width: 100%"> </br> </br>
+                    <input type="text" name="kod" style="width: 100%" required> </br> </br>
                     <button type="submit" style="width: 100%; font-size: 23;">Zarejestruj</button>
                     <div>
                         <?php
